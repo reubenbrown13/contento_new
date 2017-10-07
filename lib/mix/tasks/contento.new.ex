@@ -29,6 +29,15 @@ defmodule Mix.Tasks.Contento.New do
 
             $ cd #{dest}/ # enter project directory
             $ mix phx.server # start Contento
+
+          Default user credentials are:
+
+            Username: contento@example.org
+            Password: contento
+
+          After starting the server, you may login to back-office through:
+
+            http://localhost:4000/login
           """
         end
       end)
